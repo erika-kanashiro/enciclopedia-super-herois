@@ -1,14 +1,15 @@
 body {
     background-color: #FCECEF;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Trebuchet MS", Arial, sans-serif;
 }
+
 
 .cabecalho h1 {
     color: #7A1F3D;
     font-size: 60px;
     margin: 0;
     padding: 10px;
-    font-family: Impact, sans-serif;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 
 }
 
@@ -18,11 +19,13 @@ h2 {
     text-align: center;
     margin-bottom: 30px;
     padding-bottom: 10px;
+    font-family: Georgia, "Times New Roman", serif;
+    
 }
 
 h3 {
     color: #9B3155;
-    font-family:'Trebuchet MS', sans-serif;
+    font-family: "Trebuchet MS", Arial, sans-serif;
     font-size: 26px;
 }
 
@@ -49,6 +52,8 @@ h4 {
     align-items: center;
     text-align: center;
     color: #3D3035;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
 }
 
 .cards {
