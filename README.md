@@ -1,4 +1,4 @@
-# enciclopedia-super-herois
+# Enciclopedia-super-herois
 
 ✨ Sobre o projeto
 
