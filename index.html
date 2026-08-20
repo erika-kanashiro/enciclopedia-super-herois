@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -84,8 +84,6 @@
     </details>
 
 </article>
-
-
 
     <article class="card">
 
@@ -244,7 +242,7 @@
 </div>
 
 
-<table class="tabela">
+<table class="tabelas">
 
     <tr>
         <th>Nome</th>
@@ -283,7 +281,36 @@
 
 </table>
 
+<section class="controles">
+        <input
+            type="text"
+            id="campoBusca"
+            placeholder="Buscar por nome, universo ou poder...">
 
+        <button id="botaoOrdenar">Ordenar por ano ↑</button>
+    </section>
+
+    <!-- Esta tabela começa VAZIA no HTML.
+         Quem preenche as linhas é o JavaScript, a partir da lista de heróis. -->
+    <table class="tabelas">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Universo</th>
+                <th>Poder principal</th>
+                <th>Primeira aparição</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela">
+            <!-- As linhas <tr> aparecem aqui, criadas pelo JavaScript -->
+        </tbody>
+    </table>
+
+    <p id="mensagemVazia" class="mensagem-vazia">Nenhum herói encontrado.</p>
+
+    <!-- O JavaScript entra por último, no fim do body,
+         para garantir que a tabela já exista quando o código rodar. -->
+    
 <div class="instagram">
     <a href="https://www.instagram.com/dcofficial/" target="_blank">
         Saiba mais sobre o universo da DC
@@ -294,6 +321,9 @@
     </a>
 </div>
 
+<script src="script.js"></script>
+
+</body>
 
 <footer>
     Feito por: Emily Maria, Erika, Giovana e Nathaly - 2026
